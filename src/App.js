@@ -1,12 +1,13 @@
 /*import logo from './logo.svg';*/
 import './App.css';
 
-import { UseStateHook } from './Components';
+import { UseEffectHook, UseStateHook } from './Components';
 
 function App() {
   return (
     <div className="App">
       <UseStateHook />
+      <UseEffectHook />
     </div>
   );
 }

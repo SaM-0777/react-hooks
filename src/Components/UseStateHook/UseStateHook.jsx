@@ -11,7 +11,6 @@ Note :
 useState do not trigger re-render
 In class component useState always run for the first time but in function component it runs everytime component renders
 
-
 */
 
 const renderX = () => {
