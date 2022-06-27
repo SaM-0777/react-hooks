@@ -7,8 +7,8 @@ This hook is used as an side effect whenever a value or component changes
 
 dependeancy Array           Action
 []                          Only runs when the page renders for the first time
-[value1]                    Only runs when value1 changes
-[value1, value2]            Only runs if any of the value in array changes
+[value1]                    Only runs when value1 changes and the page renders for the first time
+[value1, value2]            Only runs if any of the value in array changes 
 
 Note : 
 
@@ -35,11 +35,13 @@ const useEffectHook = () => {
   /*
     UseEffect with clean Up
 
-    clean Up is necessary as for example
-    When we add a eventListener they are constantly being added without remove which can effect app performance
+    clean Up is necessary as
+    for example
+    When we add a eventListener they are constantly being added without remove
+    which can effect app performance
 
   */
-  useEffect(() => {     
+  useEffect(() => {
     window.addEventListener('resize', handleResize)
     console.log('Event Listener added')
     return () => {
@@ -57,11 +59,11 @@ const useEffectHook = () => {
 
       <div>
         <h1>Window Width</h1>
-        <div>{ windowWidth }</div>
+        <div>{windowWidth}</div>
       </div>
     </div>
   )
-}
+};
 
 
-export default useEffectHook
+export default useEffectHook;

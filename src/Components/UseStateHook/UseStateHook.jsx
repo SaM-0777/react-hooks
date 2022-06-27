@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useState } from 'react';
 
 
 /*
@@ -16,12 +16,12 @@ In class component useState always run for the first time but in function compon
 const renderX = () => {
   console.log('X rendered')
   return 0
-}
+};
 
 const renderY = () => {
   console.log("Y rendered");
   return 0;
-}
+};
 
 const UseStateHook = () => {
   const [count, setCount] = useState(() => {
@@ -60,7 +60,7 @@ const UseStateHook = () => {
       </div>
     </>
   )
-}
+};
 
 
-export default UseStateHook
+export default UseStateHook;
