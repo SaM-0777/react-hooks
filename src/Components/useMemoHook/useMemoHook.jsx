@@ -24,15 +24,15 @@ Use Cases of useMemo :
 
 
 const UseMemoHook = () => {
-  const [num, setNum] = useState(0);
-  const [dark, setDark] = useState(false);
+  const [num, setNum] = useState(0)
+  const [dark, setDark] = useState(false)
 
   /*
     Example of caching a slow function
   */
   const doubleNumber = useMemo(() => {
     return slowFunction(num);
-  }, [num]);
+  }, [num])
 
   /*
     Example of referential Equality
@@ -42,11 +42,11 @@ const UseMemoHook = () => {
       backgroundColor: dark ? "black" : "white",
       color: dark ? "white" : "black",
     }
-  }, [dark]);
+  }, [dark])
 
   useEffect(() => {
     console.log("Theme Changed");
-  }, [themeStyle]);
+  }, [themeStyle])
 
   return (
     <div>
@@ -62,15 +62,15 @@ const UseMemoHook = () => {
       </button>
       <div style={themeStyle}>{doubleNumber}</div>
     </div>
-  );
-}
+  )
+};
 
 
 const slowFunction = (num) => {
   console.log('Calling slow function')
   for (let i = 0; i <= 1000000000; i++) { }
   return num * 2
-}
+};
 
 
 export default UseMemoHook;
