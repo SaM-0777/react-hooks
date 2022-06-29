@@ -1,6 +1,6 @@
 /*import logo from './logo.svg';*/
 import './App.css';
-import { UseEffectHook, UseStateHook, UseMemoHook, UseContextHook } from './Components';
+import { UseEffectHook, UseStateHook, UseMemoHook, UseContextHook, UseRefHook } from './Components';
 
 
 function App() {
@@ -10,6 +10,7 @@ function App() {
       <UseEffectHook />
       <UseMemoHook />
       <UseContextHook />
+      <UseRefHook />
     </div>
   )
 };
