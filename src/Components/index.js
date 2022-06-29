@@ -3,7 +3,7 @@ import UseEffectHook from "./UseEffectHook/UseEffectHook";
 import UseMemoHook from "./UseMemoHook/UseMemoHook";
 import UseContextHook from "./UseContextHook/UseContextHook";
 import UseRefHook from "./UseRefHook/UseRefHook";
-import useReducerHook from "./useReducerHook/useReducerHook";
+import UseReducerHook from "./UseReducerHook/UseReducerHook";
 
 
 /*
@@ -26,5 +26,5 @@ export {
     UseMemoHook,
     UseContextHook,
     UseRefHook,
-    useReducerHook
+    UseReducerHook
 };
