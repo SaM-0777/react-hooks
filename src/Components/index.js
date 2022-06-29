@@ -4,6 +4,7 @@ import UseMemoHook from "./UseMemoHook/UseMemoHook";
 import UseContextHook from "./UseContextHook/UseContextHook";
 import UseRefHook from "./UseRefHook/UseRefHook";
 import UseReducerHook from "./UseReducerHook/UseReducerHook";
+import UseCallbackHook from "./UseCallbackHook/UseCallbackHook";
 
 
 /*
@@ -26,5 +27,6 @@ export {
     UseMemoHook,
     UseContextHook,
     UseRefHook,
-    UseReducerHook
+    UseReducerHook,
+    UseCallbackHook
 };
