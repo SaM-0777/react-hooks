@@ -50,6 +50,7 @@ const UseMemoHook = () => {
 
   return (
     <div>
+      <h1>useMemo Hook</h1>
       <input
         type="number"
         name=""
@@ -62,7 +63,7 @@ const UseMemoHook = () => {
       </button>
       <div style={themeStyle}>{doubleNumber}</div>
     </div>
-  )
+  );
 };
 
 

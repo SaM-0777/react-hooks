@@ -1,7 +1,7 @@
 import UseStateHook from "./UseStateHook/UseStateHook";
 import UseEffectHook from "./UseEffectHook/UseEffectHook";
 import UseMemoHook from "./UseMemoHook/UseMemoHook";
-import useContextHook from "./useContextHook/useContextHook";
+import UseContextHook from "./UseContextHook/UseContextHook";
 import useRefHook from "./useRefHook/useRefHook";
 import useReducerHook from "./useReducerHook/useReducerHook";
 
@@ -20,11 +20,11 @@ Only call hooks from react functions
 */
 
 
-export  {
+export {
     UseStateHook,
     UseEffectHook,
     UseMemoHook,
+    UseContextHook,
     useRefHook,
-    useReducerHook,
-    useContextHook
-}
+    useReducerHook
+};

@@ -52,13 +52,14 @@ const useEffectHook = () => {
 
   return (
     <div>
+      <h1>useEffect Hook</h1>
       <button onClick={() => setLanguage("Python")}>Python</button>
       <button onClick={() => setLanguage("JavaScript")}>JavaScript</button>
       <button onClick={() => setLanguage("C ++")}>C ++</button>
-      <h1>{language}</h1>
+      <h2>{language}</h2>
 
       <div>
-        <h1>Window Width</h1>
+        <h2>Window Width</h2>
         <div>{windowWidth}</div>
       </div>
     </div>
